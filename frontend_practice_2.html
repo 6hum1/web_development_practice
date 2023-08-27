@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(https://th.bing.com/th?id=OIP.4y5XWAGYJIjO51t4AErm6wHaER&w=329&h=189&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Lilita One;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            color: white;
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 25px;
+        }
+
+        .right {
+            /* border: 2px solid red; */
+            color: white;
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 40px;
+
+        }
+
+        .middle {
+            /* border: 2px solid red; */
+            color: white;
+            display: block;
+            margin: 35px auto;
+            width: 47%;
+            top: 45px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover {
+            color: rgb(183, 185, 186);
+        }
+
+        .left img {
+            width: 110px;
+        }
+
+        .btn {
+            font-family: Lilita One;
+            margin: 15px 9px;
+            border:2px solid red;
+            color: white;
+            background-color: rgb(183, 181, 180);
+            font-size: 22px;
+            border-radius: 14px;
+        }
+
+        .container {
+            color: white;
+            border: 4px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            border-radius: 30px;
+            width: 30%;}
+
+            .form-group input {
+                text-align: center;
+                display: block;
+                width: 200px;
+                border-radius: 8px;
+                margin: 11px auto;
+                padding: 10px;
+            }
+            
+            .container h1{
+                text-align: center;
+            }
+            .button{
+                background-color:black;
+                border:2px solid white;
+                border-radius:7px;
+                display:block;
+                margin: 8px auto;
+                color:white;
+                font-family:Lilita One;
+                font-size:20px
+            }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="right">
+            <button class="btn">Get Started</button>
+        </div>
+        <div class="left">
+            <img src="https://th.bing.com/th?id=OIP.JSicGFgu2I9dt0O4ufpqywHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                alt="">
+        </div>
+        <div class="middle">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Do Epic Shit.</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name">
+                <input type="text" placeholder="Enter your Email">
+                <input type="text" placeholder="Enter your Age">
+                <input type="text" placeholder="Enter your Gender">
+                <button class="button">Submit</button>
+
+            </div>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

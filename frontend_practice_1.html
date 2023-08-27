@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mywebsite3</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        background-image: url('https://freepixel-prod.s3.amazonaws.com/preview/free-photos-white-and-grey-crumpled-satin-pattern-background-perfect-fabric-cloth-for-wallpaper-clothes-and-curt-preview-1008890.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .main {
+        /* border: 4px solid rgb(241, 189, 189); */
+        background-color: white;
+        width: 90%;
+        height: 90vh;
+        margin: 50px auto;
+        border-radius: 30px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: rgb(18, 17, 17);
+        text-decoration: none;
+        padding: 34px 18px;
+        font-weight: bold;
+    }
+
+    .navbar li a:hover {
+        color: rgb(183, 185, 186);
+    }
+
+    .middle {
+        /* border: 2px solid red; */
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 130px;
+        top: 55px;
+
+    }
+
+    .right {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        right: 110px;
+        top: 65px;
+    }
+
+    .left img {
+        width: 45px;
+    }
+
+    .btn {
+        color: rgb(8, 8, 8);
+        background-color: rgb(246, 243, 243);
+        border-radius: 4px;
+        border:3px solid rgb(13, 13, 13);
+        padding: 5px 20px;
+        font-size: 20px;
+        font-weight:bold;
+    }
+
+    .boxhead {
+        /* border: 2px solid blue; */
+        display: flex;
+        margin: 0px auto;
+        width: 95%;
+        height: 324px;
+        flex-direction: row;
+    }
+
+
+
+    #box-1 {
+        /* border: 2px solid yellow; */
+        width: 430px;
+        border-radius: 30px;
+        align-self: left;
+        color: white;
+        background-image: url('https://th.bing.com/th/id/OIP.1dt8Axd-LEOGN1QeryGJ1QHaEK?w=288&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .h1 {
+        font-size: 35px;
+        text-align: center;
+        display: block;
+        width: 65%;
+        margin-top: 50px;
+        margin-left: 55px;
+
+
+    }
+
+    .h4 {
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+
+    .btn2 {
+        font-size: 23px;
+        background-color: rgb(11, 11, 11);
+        border: 2px solid white;
+        color: white;
+        padding: 2px 15px;
+        display: block;
+        border-radius: 7px;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+.btn2:hover{
+    border-color:rgb(234, 231, 231);
+}
+
+.btn:hover{
+    border-color:rgb(171, 168, 168);
+}
+
+    #box-2 {
+        /* border: 2px solid yellow; */
+        width: 430px;
+        height: 130px;
+        margin-left: 35px;
+        border-radius: 30px;
+        background-image:url('https://i.pinimg.com/originals/0e/b4/c2/0eb4c25fb70ae3f291d9d5523fda1269.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity:0.6;
+        font-size:35px;
+        font-weight:bold;
+        text-align:center;
+    }
+
+
+
+
+    /* #box-2 img {
+        width: 440px;
+        height: 140px;
+        border-radius: 30px;
+        opacity: 0.7;
+    } */
+
+
+
+    #box-3 {
+        /* border: 2px solid yellow; */
+        width: 205px;
+        height: 165px;
+        margin-left: 0px;
+        margin-right: 4px;
+        border-radius: 30px;
+        background-color: rgb(173, 126, 218);
+        font-size: 28px;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
+
+    #box-4 {
+        /* border: 2px solid yellow; */
+        width: 205px;
+        height: 165px;
+        margin-left: 4px;
+        border-radius: 30px;
+        background-color: greenyellow;
+        font-size: 28px;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
+
+    .child {
+        /* border: 2px solid black; */
+        display: flex;
+        position: absolute;
+        justify-content: space-around;
+        justify-self: flex-end;
+        margin: 150px auto;
+        width: 435px;
+        height: 171px;
+        margin-left: 470px;
+    }
+
+    .short {
+        font-size: 14px;
+        text-align: left;
+        padding-right: 24px;
+
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="middle">
+            <header>
+                <nav class="navbar">
+                    <ul>
+                        <li class="items"><a href="#">Product</a></li>
+                        <li class="items"><a href="#">App</a></li>
+                        <li class="items"><a href="#">About</a></li>
+                        <li class="items"><a href="#">FAQ</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="left">
+            <img src="https://th.bing.com/th/id/OIP.KABeTPtScdXutW2LgcEfBQHaHf?w=186&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt="">
+        </div>
+        <div class="right">
+            <button class="btn">LOGIN</button>
+        </div>
+        <div class="boxhead">
+            <div class="box" id="box-1">
+                <span class="h4">More Offers</span>
+                <span class="h1">There is something else for you</span>
+                <button class="btn2">Shop Now</button>
+
+
+            </div>
+            <div class="box" id="box-2">
+             <br> View Our Blog
+            </div>
+            <div class="child">
+                <div class="box" id="box-3">
+                    <span class="short">Discover our history</span> <br><br><br><br>About Us
+                </div>
+                <div class="box" id="box-4">
+
+                    <span class="short">Have some Questions?</span> <br><br><br><br>Contact Us
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
